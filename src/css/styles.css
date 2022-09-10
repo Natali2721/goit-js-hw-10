@@ -18,21 +18,11 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
-}
-
 
 .country-list {
   list-style: none;
   padding-left: 0;
-
 }
-
-
 
 .country-list__item {
   display: flex;
@@ -40,25 +30,11 @@ body {
 
   padding-top: 5px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #212121;
-  background-color: rgba(100, 100, 100, 0.1);
-
-}
-
-.country-list__item:first-child {
-  border-top: 1px solid #212121;
-
-}
-
-.country-list__item:last-child {
-  margin-bottom: 0;
 }
 
 .country-list__name {
   margin-left: 10px;
-
   font-size: 18px;
-
 }
 
 .country-info__box {
@@ -68,12 +44,12 @@ body {
 
 .country-info__name {
   font-size: 26px;
-  margin-left: 5px;
+  margin-left: 20px;
   font-weight: 700;
 }
 
 .country-text {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .country-info--accent {

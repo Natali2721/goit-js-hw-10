@@ -12,6 +12,10 @@ function fetchCountries(name) {
 
 export default { fetchCountries };
 
+//https://restcountries.com/v2/{service}?fields={field},{field},{field}
+//https://restcountries.com/v2/all?fields=name,capital,currencies
+
+// пример и теория
 const BASE_URL = 'https://pokeapi.co/api/v2';
 
 function fetchPokemon(pokemonId) {
@@ -20,8 +24,6 @@ function fetchPokemon(pokemonId) {
   );
 }
 
-//https://restcountries.com/v2/{service}?fields={field},{field},{field}
-//https://restcountries.com/v2/all?fields=name,capital,currencies
 fetch('https://jsonplaceholder.typicode.com/users')
   .then(response => {
     if (!response.ok) {
